@@ -1,0 +1,644 @@
+body, input, ul, p, dl, dt, dd, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headbg {
+  background: #e7e7e7;
+  width: 100%;
+  height: 35px;
+}
+
+.head {
+  width: 1240px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.head .place {
+  float: left;
+  width: 125px;
+  height: 35px;
+  font-size: 13px;
+  color: #414141;
+  cursor: pointer;
+  background: url("../images/bg.png") no-repeat -44px -40px;
+}
+
+.head .place span {
+  float: left;
+  margin-left: 10px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.head .place i {
+  width: 28px;
+  height: 28px;
+  border-radius: 20px;
+  float: left;
+  background: url("../images/bg.png") no-repeat -1px -45px;
+  margin-left: 35px;
+  margin-top: 2px;
+}
+
+.head .logo {
+  float: left;
+  width: 128px;
+  height: 35px;
+  background: url("../images/bg.png") no-repeat 0px 0px;
+}
+
+.head .logo:hover {
+  background: #414141;
+}
+
+.head .location {
+  width: 73px;
+  float: right;
+  font-size: 12px;
+  line-height: 35px;
+  color: #000;
+}
+
+.head .right {
+  width: 120px;
+  font-size: 12px;
+  float: right;
+  height: 35px;
+  line-height: 35px;
+}
+
+.head .right .login {
+  float: left;
+  width: 40px;
+  text-align: center;
+  color: #000;
+}
+
+.head .right .onlogin {
+  float: left;
+  width: 40px;
+  text-align: center;
+  color: #000;
+}
+
+.head .right .r-line {
+  padding: 0 3px 0 6px;
+}
+
+.head .right .icon-bao {
+  color: #000;
+  font-size: 16px;
+}
+
+.logo-btn {
+  width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+  height: 80px;
+}
+
+.logo-btn a {
+  display: block;
+}
+
+.navbg {
+  height: 40px;
+  background: #414141;
+}
+
+.navbg .nav {
+  width: 1240px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.nav ul {
+  overflow: hidden;
+  height: 40px;
+}
+
+.nav ul li {
+  float: left;
+  width: 95px;
+  margin: 0 32px;
+}
+
+.nav ul li a {
+  display: block;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.nav ul li:first-child {
+  margin: 0 32px 0 0;
+  background: #c71f2c;
+}
+
+.nav ul li:hover {
+  background: #fff;
+}
+
+.nav ul li:hover a {
+  color: #000;
+}
+
+.footer {
+  overflow: hidden;
+}
+
+.footer > .footnav {
+  width: 1240px;
+  margin: 15px auto 75px;
+  padding: 30px 0 40px;
+  border-bottom: solid 1px #dadada;
+  overflow: hidden;
+}
+
+.footer > .footnav > a {
+  width: 300px;
+  height: 70px;
+  display: block;
+  float: left;
+  color: #414141;
+}
+
+.footer > .footnav > .bg1 {
+  margin-left: 40px;
+}
+
+.footer > .footnav > .bg1 > .pic {
+  background: url("../images/bg.png") no-repeat -165px -115px;
+}
+
+.footer > .footnav > .bg2 > .pic {
+  background: url("../images/bg.png") no-repeat -165px -175px;
+}
+
+.footer > .footnav > .bg3 > .pic {
+  background: url("../images/bg.png") no-repeat -165px -236px;
+}
+
+.footer > .footnav > .bg4 > .pic {
+  background: url("../images/bg.png") no-repeat -165px -295px;
+}
+
+.footer > .footnav > a > .pic {
+  float: left;
+  width: 68px;
+  height: 65px;
+}
+
+.footer > .footnav > a > .foot-txt {
+  float: left;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.footer > .footnav > a > .foot-txt > .font-s {
+  font-size: 14px;
+  line-height: 20px;
+  display: block;
+  margin-top: 7px;
+}
+
+.footer > .footbox {
+  width: 1240px;
+  margin: 0 auto;
+  height: 210px;
+}
+
+.footer > .footbox > .new-l {
+  float: left;
+}
+
+.footer > .footbox > .new-l > .wxwb {
+  position: relative;
+  margin-top: 30px;
+}
+
+.footer > .footbox > .new-l > .wxwb > .wx {
+  position: absolute;
+  left: 80px;
+  top: -2px;
+}
+
+.footer > .footbox > .new-l > .wxwb > .wb {
+  position: absolute;
+  left: 125px;
+  top: -4px;
+}
+
+.footer > .footbox > ul {
+  margin-top: 0;
+  float: left;
+  padding: 0 60px;
+  text-align: center;
+}
+
+.footer > .footbox > ul > p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.footer > .footbox > ul > li {
+  line-height: 30px;
+  color: #000;
+  text-align: left;
+  margin-left: 1px;
+}
+
+.footer > .footbox > ul > li > a {
+  color: #414141;
+  font-size: 14px;
+}
+
+.footer > .footbox > .indexr {
+  float: right;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer > .footbox > .indexr img {
+  width: 120px;
+  height: 120px;
+}
+
+.footer > .bottom {
+  width: 100%;
+  height: 45px;
+  font-size: 14px;
+  background: #414141;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+}
+
+.content {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.category {
+  overflow: hidden;
+  margin-top: 25px;
+}
+
+.category .box {
+  float: left;
+  width: 288px;
+  height: 344px;
+  margin-right: 29px;
+}
+
+.category .box:nth-of-type(4) {
+  margin-right: 0;
+}
+
+.category .box a {
+  display: block;
+  width: 288px;
+  height: 280px;
+  overflow: hidden;
+}
+
+.category .box a img {
+  transition: all 0.3s;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -weblit-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.category .box a img:hover {
+  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -weblit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.category .box p {
+  width: 288px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  border: 1px solid #ebebeb;
+  border-top: none;
+  font-size: 18px;
+}
+
+.title {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.title h3 {
+  line-height: 64px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.single {
+  width: 990px;
+  height: 710px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.single .subject {
+  height: 51px;
+  position: absolute;
+  width: 990px;
+  top: 0;
+  border: 1px solid #ebebeb;
+  line-height: 25px;
+  border-bottom: 1px solid #414141;
+}
+
+.single .subject li {
+  position: relative;
+  width: 247px;
+  float: left;
+  height: 51px;
+  line-height: 51px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.single .subject li span {
+  position: absolute;
+  width: 1px;
+  height: 20px;
+  overflow: hidden;
+  top: 15px;
+  right: -1px;
+  z-index: -1;
+  background: #ccc;
+}
+
+.single .subject .cur {
+  position: relative;
+  font-height: bold;
+  border-left: 1px solid #414141;
+  border-right: 1px solid #414141;
+  border-top: 3px solid #414141;
+  top: -1px;
+  left: 0px;
+  width: 247px;
+  height: 51px;
+  line-height: 52px;
+  text-indent: 1px;
+  background: #fff;
+}
+
+.single .subject li a {
+  color: #000;
+}
+
+.single .pic {
+  position: absolute;
+  z-index: 6;
+  border: 1px solid #ebebeb;
+  border-bottom: none;
+  width: 990px;
+  height: 660px;
+  top: 51px;
+  border-top: none;
+}
+
+.single .pic li {
+  text-align: center;
+  display: none;
+}
+
+.single .pic .show {
+  display: block;
+}
+
+.single .pic li a {
+  position: relative;
+  float: left;
+  text-align: center;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  width: 246.5px;
+  height: 330px;
+  color: #414141;
+  transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+.single .pic li a:hover {
+  background: #e5e5e5;
+  transition: all 0.8s ease-in-out;
+  -ms-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -o-transition: all 0.8s ease-in-out;
+}
+
+.single .pic li dt {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.single .pic li dt img {
+  width: 100%;
+  height: 100%;
+}
+
+.single .pic li dd {
+  line-height: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.single .pic li a h3 {
+  font-size: 14px;
+  color: #000;
+  line-height: 25px;
+}
+
+.single .pic li a p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #000;
+}
+
+.single .pic li a h2 {
+  font-size: 14px;
+  color: #000;
+}
+
+.flower {
+  height: 580px;
+  margin-top: 60px;
+}
+
+.flower .flower-t {
+  height: 25px;
+  margin: 20px 0;
+}
+
+.flower .flower-t .flower-t-l {
+  float: left;
+  font-size: 20px;
+  position: relative;
+  width: 270px;
+}
+
+.flower .flower-t .flower-t-l h2 {
+  font-weight: inherit;
+  font-size: 20px;
+}
+
+.flower .flower-t .flower-t-l a {
+  color: #414141;
+}
+
+.flower .flower-t .flower-t-l a .line {
+  padding: 0 10px;
+}
+
+.flower .flower-t .flower-t-l a .english {
+  font-size: 18px;
+}
+
+.flower .flower-t .flower-t-r {
+  float: right;
+}
+
+.flower .flower-t .flower-t-r a {
+  color: #414141;
+}
+
+.flower .flower-t .flower-t-r .arrow {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 2px;
+  background: url("../images/bg.png") no-repeat 0px -218px;
+}
+
+.flower .flower-b {
+  overflow: hidden;
+}
+
+.flower .flower-b .flower-b-l {
+  float: left;
+  width: 460px;
+  position: relative;
+  cursor: pointer;
+}
+
+.flower .flower-b .flower-b-l .f-big {
+  width: 450px;
+  height: 500px;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  display: none;
+}
+
+.flower .flower-b .flower-b-r {
+  float: right;
+  width: 760px;
+}
+
+.flower .flower-b .flower-b-r a {
+  position: relative;
+}
+
+.flower .flower-b .flower-b-r .left {
+  float: left;
+}
+
+.flower .flower-b .flower-b-r .right {
+  float: right;
+}
+
+.flower .flower-b .flower-b-r .martop {
+  margin-top: 27px;
+}
+
+.flower .flower-b .flower-b-r a .f-small {
+  position: absolute;
+  width: 365px;
+  height: 235px;
+  top: 0;
+  background: #fff;
+  display: none;
+}
+
+.content .segline {
+  width: 100%;
+  height: 5px;
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 8px;
+}
+
+.shop {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.shop a {
+  position: relative;
+}
+
+.shop a:nth-of-type(1) {
+  float: left;
+}
+
+.shop a:nth-of-type(2) {
+  float: right;
+}
+
+.shop a .f-shop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 605px;
+  height: 200px;
+  background: #fff;
+  display: none;
+}
+
+#top {
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 45px;
+  right: 5px;
+  border-radius: 8px;
+  background: url("../images/bg.png") no-repeat 12px -240px;
+  background-color: #969696;
+  cursor: pointer;
+  display: none;
+}
+
+#top:hover {
+  background-color: #414141;
+}

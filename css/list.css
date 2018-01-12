@@ -1,0 +1,347 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul li{list-style: none;}
+.headbg{
+	height: 35px;
+	background: #E7E7E7;
+}
+.head{
+	height: 35px;
+	width: 1240px;
+	margin: 0 auto;
+}
+.head>.place{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	color: #414141;
+	float: left;
+	position: relative;
+	font-size: 12px;
+	cursor: pointer;
+	background: black; 
+}
+.head>a{
+	width: 128px;
+	height: 35px;
+	display: block;
+	float: left;
+}
+.heada>a:hover{
+	background: #414141;
+}
+.head>#tar_index{
+	background: #fff url('http://www.roseonly.com.cn/upload/syspic_new/14847113449177567.svg');
+	background-size: 128px 35px;
+}
+.head>#tar_love{
+	background: #e7e7e7 url('http://www.roseonly.com.cn/upload/syspic_new/15006335440104987.svg');
+	background-size: 128px 35px;
+	border-right: 1px solid #d6d6d6;
+}
+.head>.login{
+	float: right;
+	height: 35px;
+	line-height: 35px;
+	font-size: 13px;
+}
+.head>.login>a{
+	color: #000;
+}
+.head>.login>a>span{
+	display: inline-block;
+	margin: 0 5px;
+}
+.head>.login>.shop{
+
+}
+.logo{
+	width: 1240px;
+	height: 80px;
+	margin: 0 auto;
+	background: #fff;
+}
+.logo>.tar_logo{
+	display: block;
+	text-align: center;
+}
+.navbg{
+	height: 40px;
+	background: #414141;
+}
+.navbg>.nav{
+	width: 1240px;
+	margin: 0 auto;
+}
+.navbg>.nav>ul>li{
+	float: left;
+	width: 95px;
+	margin: 0 30px;
+}
+.navbg>.nav>ul>li:hover{
+	background: #fff;
+}
+.navbg>.nav>ul>li:hover a{
+	color: #000;
+}
+.navbg>.nav>ul>li:nth-of-type(1){
+	margin: 0 30px 0 0;
+	background: #c71f2c;
+}
+.navbg>.nav>ul>li>a{
+	text-align: center;
+	display: block;
+	line-height: 40px;
+	color: #fff;
+}
+.banner{
+	width: 1240px;
+	height: 95px;
+	margin: 0 auto;
+}
+.cont{
+	width: 1240px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cont>.select{
+	font-size: 14px;
+    color: #414141;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: solid 1px #414141;
+    border-bottom: solid 1px #414141;
+}
+.cont>.select>a{
+	color: #414141;
+    display: inline-block;
+    width: 57px;
+    margin: 0 30px;
+    text-align: center;
+    height: 25px;
+}
+.cont>.select>a:first-child{
+	border-bottom: solid 9px #414141;
+}
+.cont>.select>a:hover{
+	font-weight: bold;
+    border-bottom: solid 9px #414141;
+}
+.cont>.select>input{
+	width: 200px;
+    height: 29px;
+    margin: 5px 10px;
+    display: inline-block;
+    border: solid 1px #b3b3b3;
+    color: #000;
+    font-size: 14px;
+    text-indent: 5px;
+    outline: none;
+}
+.cont>.select>span{
+	display: inline-block;
+    text-align: center;
+    color: #b3b3b3;
+}
+.cont>#list{
+	width: 1240px;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.cont>#list>li{
+	width: 310px;
+	height: 415px;
+	float: left;
+	color: #000;
+	text-align: center;
+}
+.cont>#list>li:hover{
+	background: #e5e5e5;
+    transition: all 0.8s;
+}
+.cont>#list>li>.pic{
+	width: 260px;
+	height: 260px;
+	margin: 24px auto;
+}
+.cont>#list>li>.pic>img{
+	width: 260px;
+	height: 260px;
+}
+.cont>#list>li>.name{
+	font-size: 14px;
+    line-height: 20px
+}
+.cont>#list>li>.introduce{
+	font-size: 12px;
+	line-height: 28px;
+}
+.cont>#list>li>.price{
+	font-size: 14px;
+    line-height: 20px;
+}
+.footer{
+	overflow: hidden;
+}
+.footer>.footnav{
+	width: 1240px;
+	margin: 15px auto 75px;
+	padding: 30px 0 40px;
+	border-bottom: solid 1px #dadada;
+	overflow: hidden;
+}
+.footer>.footnav>a{
+	width: 300px;
+    height: 70px;
+    display: block;
+    float: left;
+    color: #414141;
+    background: url("../images/url.png") no-repeat;
+}
+.footer>.footnav>.bg1{
+	margin-left: 40px;
+}
+.footer>.footnav>a>.foot-txt{
+	margin-left: 97px;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.footer>.footnav>a>.foot-txt>.font-s{
+	font-size: 14px;
+    line-height: 20px;
+    display: block;
+    margin-top: 7px;
+}
+.footer>.footbox{
+	width: 1240px;
+    margin: 0 auto;
+    height: 210px;
+}
+.footer>.footbox>.new-l{
+	float: left;
+}
+.footer>.footbox>.new-l>.wxwb{
+	position: relative;
+	margin-top: 30px;
+}
+.footer>.footbox>.new-l>.wxwb>.wx{
+	position: absolute;
+	left: 80px;
+	top:-2px;
+}
+.footer>.footbox>.new-l>.wxwb>.wb{
+	position: absolute;
+	left: 125px;
+	top: -4px;
+}
+.footer>.footbox>ul{
+	margin-top: 0;
+    float: left;
+    padding: 0 60px;
+    text-align: center;
+}
+.footer>.footbox>ul>p{
+	margin-bottom: 20px;
+    font-size: 16px;
+    margin-top: 0;
+}
+.footer>.footbox>ul>li{
+    line-height: 30px;
+    color: #000;
+    text-align: left;
+    margin-left: 1px;
+}
+.footer>.footbox>ul>li>a{
+	color: #414141;
+    font-size: 14px;
+}
+.footer>.footbox>.indexr{
+	float: right;
+	text-align: center;
+	font-size: 14px;
+}
+.footer>.footbox>.indexr img{
+	width: 120px;
+	height: 120px;
+}
+.footer>.bottom{
+	width: 100%;
+    height: 45px;
+    font-size: 14px;
+    background: #414141;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+#top{
+	width: 45px;
+    height: 45px;
+    background: #969696;
+    position: fixed;
+    bottom: 45px;
+    right: 5px;
+    border-radius: 8px;
+    line-height: 45px;
+    color: #fff;
+    text-align: center;
+    display: none;
+}
+#topnavbg{
+	position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 66;
+    background: #414141;
+    height: 40px;
+    line-height: 40px;
+    display: none;
+}
+#topnavbg>.topnav>ul{
+	display: table;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+#topnavbg>.topnav>ul>li{
+	float: left;
+    width: 95px;
+}
+#topnavbg>.topnav>ul>li:hover{
+	background: #fff;
+}
+#topnavbg>.topnav>ul>li:first-child{
+	background: #c71f2c;
+}
+#topnavbg>.topnav>ul>li:hover a{
+	color: #000;
+}
+#topnavbg>.topnav>ul>li>a{
+	font-size: 14px;
+	position: relative;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+#topnavbg>.topnav>.top-right{
+	position: absolute;
+	right: 50px;
+	top: 0;
+
+}
+#topnavbg>.topnav>.top-right>a{
+	color: #fff;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+	width: 40px;
+}
+#topnavbg>.topnav>.top-right>a>span{
+	padding: 0 3px 0 6px
+}

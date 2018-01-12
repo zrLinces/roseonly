@@ -1,0 +1,68 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul li{list-style: none;}
+.headbg{
+	height: 35px;
+	background: #E7E7E7;
+}
+.head{
+	height: 35px;
+	width: 1240px;
+	margin: 0 auto;
+}
+.head>.place{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	color: #414141;
+	float: left;
+	position: relative;
+	font-size: 12px;
+	cursor: pointer;
+	background: black; 
+}
+.head>a{
+	width: 128px;
+	height: 35px;
+	display: block;
+	float: left;
+}
+.heada>a:hover{
+	background: #414141;
+}
+.head>#tar_index{
+	background: #fff url('http://www.roseonly.com.cn/upload/syspic_new/14847113449177567.svg');
+	background-size: 128px 35px;
+}
+.head>#tar_love{
+	background: #e7e7e7 url('http://www.roseonly.com.cn/upload/syspic_new/15006335440104987.svg');
+	background-size: 128px 35px;
+	border-right: 1px solid #d6d6d6;
+}
+.head>.login{
+	float: right;
+	height: 35px;
+	line-height: 35px;
+	font-size: 13px;
+}
+.head>.login>a{
+	color: #000;
+}
+.head>.login>a>span{
+	display: inline-block;
+	margin: 0 5px;
+}
+.logo{
+	width: 1240px;
+	height: 80px;
+	margin: 0 auto;
+	background: #fff;
+}
+.logo>.tar_logo{
+	display: block;
+	text-align: center;
+}
+.cont{
+	width: 960px;
+	margin: 0 auto;
+} 

@@ -1,0 +1,174 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+ul li{list-style: none;}
+.headbg{
+	height: 35px;
+	background: #E7E7E7;
+}
+.head{
+	height: 35px;
+	width: 1240px;
+	margin: 0 auto;
+}
+.head>.place{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	color: #414141;
+	float: left;
+	position: relative;
+	font-size: 12px;
+	cursor: pointer;
+	background: black; 
+}
+.head>a{
+	width: 128px;
+	height: 35px;
+	display: block;
+	float: left;
+}
+.heada>a:hover{
+	background: #414141;
+}
+.head>#tar_index{
+	background: #fff url('http://www.roseonly.com.cn/upload/syspic_new/14847113449177567.svg');
+	background-size: 128px 35px;
+}
+.head>#tar_love{
+	background: #e7e7e7 url('http://www.roseonly.com.cn/upload/syspic_new/15006335440104987.svg');
+	background-size: 128px 35px;
+	border-right: 1px solid #d6d6d6;
+}
+.head>.login{
+	float: right;
+	height: 35px;
+	line-height: 35px;
+	font-size: 13px;
+}
+.head>.login>a{
+	color: #000;
+}
+.head>.login>a>span{
+	display: inline-block;
+	margin: 0 5px;
+}
+.head>.login>.shop{
+
+}
+.logo{
+	width: 1240px;
+	height: 80px;
+	margin: 0 auto;
+	background: #fff;
+}
+.logo>.tar_logo{
+	display: block;
+	text-align: center;
+}
+.cont-box{
+	width: 1240px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.cont-box>.cont{
+	width: 960px;
+    margin: 0 auto;
+    color: #000;
+}
+.cont-box>.cont>.carousel{
+	width: 530px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 60px;
+    margin-top: 25px;
+}
+.cont-box>.cont>.carousel>.big{
+	width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.cont-box>.cont>.carousel>.big>img{
+	width: 100%;
+	height: 100%;
+}
+.cont-box>.cont>.carousel>.small{
+	display: table;
+    margin: 20px auto 0px;
+}
+.cont-box>.cont>.carousel>.small>a{
+	display: inline-block;
+    float: left;
+    border: solid 1px #fff;
+    text-decoration: none;
+    margin-right: 7px;
+}
+.cont-box>.cont>.carousel>.small>.active{
+	border: solid 1px #7e7e7e;
+}
+.cont-box>.cont>.carousel>.small>a>img{
+	width: 55px;
+    height: 55px;
+    display: block;
+    border: solid 1px #7e7e7e;
+}
+.cont-box>.cont>.right-txt{
+	padding-top: 65px;
+    width: 350px;
+    float: right;
+    margin-bottom: 30px;
+}
+.cont-box>.cont>.right-txt>.right-title{
+	font-size: 18px;
+    line-height: 25px;
+    color: #414141;
+    height: 25px;
+}
+.cont-box>.cont>.right-txt>.right-xx{
+	font-size: 12px;
+    line-height: 30px;
+    color: #83847e;
+}
+.cont-box>.cont>.right-txt>.phonenum{
+	font-size: 12px;
+    padding-top: 10px;
+    color: #7b7b7b;
+}
+.cont-box>.cont>.right-txt>.pay{
+	width: 330px;
+    font-size: 24px;
+    line-height: 45px;
+    margin: 15px 0 13px 0;
+    padding: 5px 0;
+    border-top: solid 1px #b3b3b3;
+    border-bottom: solid 1px #b3b3b3;
+    position: relative;
+    padding-left: 40px;
+}
+.cont-box>.cont>.right-txt>.goin{
+	width: 160px;
+    line-height: 38px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 15px 5px 15px 0;
+    text-decoration: none;
+    text-align: center;
+    background: #414141;
+    color: #fff;
+    border: 1px solid #414141;
+}
+.cont-box>.cont>.right-txt>.goin:hover{
+	background: #fff;
+	color: #000;
+}
+.cont-box>.cont>.right-txt>.in{
+	width: 160px;
+    line-height: 38px;
+    font-size: 14px;
+    display: inline-block;
+    margin: 15px 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border: 1px solid #414141;
+}
